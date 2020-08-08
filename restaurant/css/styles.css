@@ -75,3 +75,54 @@ body {
 	text-align: right;
 	padding-right: 15px;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+/******** END of HEADER ********/
+/**************** Large Devices only ***************/
+@media (min-width: 1200px) {
+
+}
+/**************** Medium Devices only ***************/
+@media (min-width: 992px) and (max-width: 1199px){
+	/* Header */
+	#logo-img {
+		background: url('restaurant-logo_large.png') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0;
+	} 
+	/* End Header */
+}
+/**************** Small Devices only ***************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/**************** X small Devices only ***************/
+@media (max-width: 767px) {
+/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	/* Restaurant Name */
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 5vw; /* 1vw = 1% of viewport width*/
+	}
+	/* Kosher cert */
+	.navbar-bran p {
+		font-size: .6em;
+		margin-top: 12px;
+	}
+	/* Star-K */
+	.navbar-brand p img {
+		height: 20px;
+	}
+}
+
