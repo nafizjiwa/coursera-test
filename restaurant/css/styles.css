@@ -115,7 +115,7 @@ body {
 		padding-top: 10px;
 		font-size: 5vw; /* 1vw = 1% of viewport width*/
 	}
-	/* Kosher cert */
+	/* Kosher cert  */
 	.navbar-bran p {
 		font-size: .6em;
 		margin-top: 12px;
@@ -124,5 +124,7 @@ body {
 	.navbar-brand p img {
 		height: 20px;
 	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
 }
-
