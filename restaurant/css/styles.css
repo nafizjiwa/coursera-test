@@ -83,12 +83,35 @@ body {
 	clear: both;
 	margin-top: -30px;
 }
-/******** END of HEADER ********/
+        /******** END of HEADER ********/
+/* Homer Page */
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+	}
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+} 
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 2px 5px 1px #cccccc;
+}
+
+/* End of Home Page */
+
 /**************** Large Devices only ***************/
 @media (min-width: 1200px) {
-
+	.container .jumbotron {
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+	}
 }
 /**************** Medium Devices only ***************/
+
 @media (min-width: 992px) and (max-width: 1199px){
 	/* Header */
 	#logo-img {
@@ -98,10 +121,20 @@ body {
 		margin: 5px 5px 5px 0;
 	} 
 	/* End Header */
+
+	/* Home Page */
+	.container .jumbotron {
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	}
+	/* End of Home Page */
 }
 /**************** Small Devices only ***************/
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.container .jumbotron {
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}		
 }
 /**************** X small Devices only ***************/
 @media (max-width: 767px) {
@@ -130,6 +163,10 @@ body {
 	#collapsable-nav a span {
 		font-size: 1em;
 		margin-right: 5px;
+	}
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
 	}
 
 }
