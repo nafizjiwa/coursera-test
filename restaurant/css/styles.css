@@ -83,8 +83,9 @@ body {
 	background-color: #FAD02C;
 	border: 1px solid #2C2217;
 	border-radius: 5px;
-	text-align: right;
+	text-align: center;
 	padding-right: 15px;
+	opacity: .7;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
