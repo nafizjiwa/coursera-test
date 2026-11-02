@@ -80,6 +80,9 @@ body {
 #phone div {
 	color:#2C2217;
 	/* color: #557c3e; */
+	background-color: #FAD02C;
+	border: 1px solid #2C2217;
+	border-radius: 5px;
 	text-align: right;
 	padding-right: 15px;
 }
